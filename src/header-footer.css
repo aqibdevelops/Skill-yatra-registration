@@ -1,0 +1,26 @@
+.header {
+    background-color: #fff;
+}
+
+.header h1, h5{
+    padding-left: 15vw;
+}
+
+@media screen and (max-width:768px) {
+    header h1, h5 {
+        padding-left: 15px;
+    }    
+}
+
+.header, .footer {
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+.footer {
+    margin-top: 100px;
+    text-align: center;
+    height: 36px;
+}

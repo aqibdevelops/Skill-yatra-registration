@@ -1,0 +1,32 @@
+.card {
+    width: 70vw;
+    height: fit-content;
+    margin: auto;
+    padding: 30px;
+    border: none!important;
+}
+
+@media screen and (max-width:768px) {
+    .card {
+        width: 90%;
+    }
+}
+
+input, select {
+    border: 1px solid #05445E;
+    height: 25px;
+}
+
+.button-class{
+    margin: auto;
+    margin-top: 40px;
+    width: 70%;
+}
+
+.btn-primary {
+    float: right;
+    background-color: #75E6DA !important;
+    border:1px solid #05445E !important;
+    width: 120px;
+    color: #000 !important;
+}
